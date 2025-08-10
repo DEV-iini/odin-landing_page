@@ -89,3 +89,39 @@ li {
 #header_image p {
     color: #F4F4F5;
 }
+
+#first_section {
+    max-width: 1000px;
+    height: 50vh;
+    margin: auto;
+}
+#first_section h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-top: 25px;
+}
+
+#flex_images {
+    display: flex;
+    height: 250px;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.container_box {
+    width: 150px;
+}
+
+.image_box {
+    width: 150px;
+    height: 150px;
+    outline: 4px solid #3882f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.container_box span {
+    color: #5f656c;
+}
