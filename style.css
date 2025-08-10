@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Roboto, Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 header {
@@ -94,6 +95,7 @@ li {
     max-width: 1000px;
     height: 50vh;
     margin: auto;
+    text-align: center;
 }
 #first_section h2 {
     text-align: center;
@@ -124,4 +126,57 @@ li {
 
 .container_box span {
     color: #5f656c;
+}
+
+#second_section {
+    height: 50vh;
+    background-color: #e5e7eb;
+}
+
+#quote_section {
+    width: 55%;
+    margin: auto;
+}
+
+#quote_section p {
+    text-align: right;
+}
+
+#second_section blockquote {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: justify;
+    padding-top: 90px;
+}
+
+#third_section {
+    height: 40vh;
+}
+
+#sign_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    height: 150px;
+    margin: auto;
+    background-color: #3882f6;
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 8px;
+    color: #f9faf8;
+}
+
+#sign_section p {
+    color: #C5D4ED;
+}
+
+#sign_section button {
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 900;
+    width: 120px;
+    height: 40px;
 }
