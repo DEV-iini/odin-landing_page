@@ -150,7 +150,7 @@ li {
 }
 
 #third_section {
-    height: 40vh;
+    height: 35vh;
 }
 
 #sign_section {
@@ -179,4 +179,16 @@ li {
     font-weight: 900;
     width: 120px;
     height: 40px;
+}
+
+footer {
+    background-color: #1f2937;
+    height: 10vh;
+}
+
+#flex_footer {
+    color: #f9faf8;
+    width: 12%;
+    margin: auto;
+    padding-top: 25px;
 }
